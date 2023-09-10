@@ -14,3 +14,9 @@ print(re.findall(r'[Gg]eek', 'GeeksforGeeks: \
 
 # ranges
 print('Range',re.search(r'[a-zA-Z]', 'x'))
+
+import re
+  
+  
+print('Geeks:', re.search(r'\bGeeks\b', 'Geeks'))
+print('GeeksforGeeks:', re.search(r'\bGeeks\b', 'GeeksforGeeks'))
