@@ -10,3 +10,7 @@ import re
 
 print(re.findall(r'[Gg]eek', 'GeeksforGeeks: \
 				A computer science portal for geeks'))
+
+
+# ranges
+print('Range',re.search(r'[a-zA-Z]', 'x'))
